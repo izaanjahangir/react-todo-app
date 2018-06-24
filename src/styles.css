@@ -1,0 +1,35 @@
+/* .App {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+} */
+
+.container{
+  padding-top: 15px;
+}
+ul{
+  margin-top: 20px;
+  padding-left: 0;
+}
+li {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+}
+li span{
+  cursor: pointer;
+  flex: 1;
+}
+.done {
+  text-decoration: line-through !important;
+  color: red;
+}
+.button-group input[type="button"]:first-child{
+  margin-right: 5px !important;
+}
+.button-group input[type="button"]:last-child{
+  margin-left: 5px !important;
+}
